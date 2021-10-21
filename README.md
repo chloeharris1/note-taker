@@ -11,4 +11,5 @@ This is an Express.js application called Note Taker that can be used to write an
 </br>
 
 ## Notes Page
-<img width="960" alt="note-taker" src="https://user-images.githubusercontent.com/89039793/138210474-7c06dd62-aefd-452a-ac0c-249fb962834f.PNG">
+
+<img width="646" alt="note-taker" src="https://user-images.githubusercontent.com/89039793/138210670-04c3650f-4af2-4cf8-af7c-84cd88cb4750.PNG">

@@ -1,12 +1,15 @@
-const express = require("Express")
+const express = require("express")
 const app = express(); 
 
-const PORT = 3000;
+const PORT = process.env.PORT ||3000;
+
+const htmlRoutes = require("./routes/htmlRoutes");
 
 // First route
 app.get('/',(req, res)=>{
-    res.send("eventually this will be the homepage")
+    res.sendFile(path.join(__dirname, 'public/index.html'))
 })
+
 
 
 // Listen for requests
